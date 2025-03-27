@@ -1,0 +1,16 @@
+[steam]
+username = "MyLoginHere" # замени "MyLoginHere" на свой логин steam 
+password = ""  # можешь оставить пустым, если используешь кэш
+appid_workshop = 107410
+appid_server = 233780
+steamcmd_path = "C:/steamcmd/steamcmd.exe"
+
+[server]
+install_dir = "C:/arma3server"
+
+[mods]
+mod_ids = [123123123, 123123123, 123123123]
+
+[paths]
+download_temp_dir = "C:/steamcmd/steam_temp" # место для загрузки
+server_mods_dir = "C:/arma3server/mods"       # место для импорта
