@@ -1,16 +1,19 @@
 [steam]
-username = "MyLoginHere" # замени "MyLoginHere" на свой логин steam 
-password = ""  # можешь оставить пустым, если используешь кэш
-appid_workshop = 107410
-appid_server = 233780
-steamcmd_path = "C:/steamcmd/steamcmd.exe"
+username = "MyLoginHere"         # Логин Steam аккаунта
+password = ""                    # Пароль (можно оставить пустым при использовании кэша)
+appid_workshop = 107410          # ID ARMA 3 Workshop
+appid_server = 233780            # ID ARMA 3 Server
+steamcmd_path = "C:/steamcmd/steamcmd.exe"  # Путь к steamcmd.exe
 
 [server]
-install_dir = "C:/arma3server"
+install_dir = "C:/arma3server"   # Директория установки сервера
+download_server = 0              # Скачивать сервер (1 - да, 0 - нет)
+update_server = 1                # Обновлять сервер (1 - да, 0 - нет)
 
 [mods]
-mod_ids = [123123123, 123123123, 123123123]
+enable_mods = 1                  # Устанавливать моды (1 - да, 0 - нет)
+mod_ids = [123123123, 123123123]  # ID модов из Workshop
 
 [paths]
-download_temp_dir = "C:/steamcmd/steam_temp" # место для загрузки
-server_mods_dir = "C:/arma3server/mods"       # место для импорта
+download_temp_dir = "C:/steamcmd/steam_temp"  # Временная директория для загрузок
+server_mods_dir = "C:/arma3server/mods"       # Финалная директория модов
